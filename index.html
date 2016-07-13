@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-  <html>
+  <html ng-app="myApp">
     <head>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -7,12 +7,14 @@
       <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
       <!-- Bootstrap -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- Angular -->
+      <link rel="stylesheet" href="css/angular.css">
       <!-- Custom -->
       <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Home</title>
+      <title></title>
     </head>
 
     <body>
@@ -20,16 +22,16 @@
       <div class="container"> 
         
         <nav>
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Services</a>
-          <a href="/">Contact Us</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact Us</a>
         </nav>  
 
         <h1>Hair Stylist's</h1>
         <h2>Unisex Salon</h2>
-
-        
+    
+        <div ng-view></div>
 
       </div> <!-- container -->  
 
@@ -37,6 +39,34 @@
       <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
       <!-- Bootstrap -->
       <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <!-- Angular -->
+       <script type="text/javascript" src="js/angular.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+
       <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+      <script>
+        var app = angular.module("myApp", ["ngRoute"]);
+        app.config(function($routeProvider){
+          $routeProvider
+          .when("/home", {
+            templateUrl : "routes/home.htm",
+            controller : "homeCtrl"
+          })
+          .when("/about", {
+            templateUrl : "routes/about.htm",
+            controller : "abouttrl"
+          })
+          .when("/services", {
+            templateUrl : "routes/services.htm",
+            controller : "servicesCtrl"
+          })
+          .when("/contact", {
+            templateUrl : "routes/contact.htm",
+            controller : "contactCtrl"
+          });
+        });
+        
+      </script>
     </body>
   </html>
