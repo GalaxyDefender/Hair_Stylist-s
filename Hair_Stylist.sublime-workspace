@@ -1,0 +1,1132 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"$route",
+				"$routeProvider	AngularJS"
+			],
+			[
+				"con",
+				"console.log"
+			],
+			[
+				"getEle",
+				"getElementById(id)	Element"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ngi",
+				"ng-include	AngularJS"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bacc",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"the",
+				"theLandmarks"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"__",
+				"__dirname"
+			],
+			[
+				"response",
+				"response.writeHead"
+			],
+			[
+				"current",
+				"current_subject"
+			],
+			[
+				"find_",
+				"find_pages_for_subject"
+			],
+			[
+				"current_",
+				"current_subject"
+			],
+			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"co",
+				"console.warn"
+			],
+			[
+				"cons",
+				"console.error"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"glo",
+				"global"
+			],
+			[
+				"subj",
+				"subject_set"
+			],
+			[
+				"sele",
+				"selected_page_id"
+			],
+			[
+				"else",
+				"elseif	elseif …"
+			],
+			[
+				"sel",
+				"selected_page_id"
+			],
+			[
+				"subjec",
+				"subject"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"subje",
+				"subject_id"
+			],
+			[
+				"subject",
+				"subject_set"
+			],
+			[
+				"page",
+				"page_set"
+			],
+			[
+				"req",
+				"req1	require_once …"
+			],
+			[
+				"menu",
+				"menu_name"
+			],
+			[
+				"position",
+				"position"
+			],
+			[
+				"mysqli_co",
+				"mysqli_connect_errno"
+			],
+			[
+				"db",
+				"dbuser"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"time",
+				"time"
+			],
+			[
+				"fi",
+				"fields_with_max_lengths"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"fiel",
+				"fields_required"
+			],
+			[
+				"is_nu",
+				"is_numeric"
+			],
+			[
+				"value",
+				"value2"
+			],
+			[
+				"preg",
+				"preg_match"
+			],
+			[
+				"is_s",
+				"is_string"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"va",
+				"value	Attr"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"new",
+				"new_location"
+			],
+			[
+				"redirc",
+				"redirect_to"
+			],
+			[
+				"header",
+				"headers_list"
+			],
+			[
+				"parm",
+				"param2"
+			],
+			[
+				"param",
+				"param1"
+			],
+			[
+				"raw",
+				"rawurlencode"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"val",
+				"val2"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"get_defi",
+				"get_defined_vars"
+			],
+			[
+				"var",
+				"var_dump"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2557,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/services.htm",
+			"settings":
+			{
+				"buffer_size": 1052,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/home.htm",
+			"settings":
+			{
+				"buffer_size": 33,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 1151,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "table",
+		"selected_items":
+		[
+			[
+				"table",
+				"Snippet: bs3-table"
+			],
+			[
+				"bs3-ht",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3-na",
+				"Snippet: bs3-navbar-responsive"
+			],
+			[
+				"bs3-html",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"html",
+				"Snippet: Simple HTML5 Boilerplate"
+			],
+			[
+				"blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"larav",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"lara",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"la",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"conso",
+				"Set Syntax: R Console"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3-h",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"htmm",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"bs3",
+				"Snippet: bs3-navbar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"trimmer",
+				"Trimmer: Trim leading whitespace."
+			],
+			[
+				"trimm",
+				"Trimmer: Remove blank spaces."
+			],
+			[
+				"trim",
+				"Trimmer: Collapse lines."
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"allig",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Snippet: package"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			]
+		],
+		"width": 1364.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/Hair Stylist Unisex Salon",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/Hair Stylist Unisex Salon/css",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/Hair Stylist Unisex Salon/img",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/Hair Stylist Unisex Salon/routes"
+	],
+	"file_history":
+	[
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/Hair Stylist Unisex Salon/css/style.css",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/CakePHP/bookmarks/src/Template/Tags/index.ctp",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/CakePHP/bookmarks/src/Controller/TagsController.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/CakePHP/bookmarks/src/Template/Bookmarks/export.ctp",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/CakePHP/bookmarks/src/Controller/BookmarksController.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/CakePHP/bookmarks/src/Template/Bookmarks/bookmarks.ctp",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/CakePHP/bookmarks/config/app.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/Hair Stylist Unisex Salon/routes/contact.htm",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/Hair Stylist Unisex Salon/routes/services.htm",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/Hair Stylist Unisex Salon/routes/about.htm",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/Hair Stylist Unisex Salon/routes/home.htm",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/Email_App/node_modules/express-mailer/package.json",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/Email_App/npm-debug.log",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/Email_App/package.json",
+		"/C/Program Files (x86)/Steam/SteamApps/common/The Witcher 3/mods/mod0000_MergedFiles/content/scripts/game/player/playerWitcher.ws",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/routes/index.js",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/views/success.ejs",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/views/index.ejs",
+		"/C/Users/Quentin_PC/Google Drive/Web Projects/RMC_old/includes/contact.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/views/includes/work.ejs",
+		"/C/Users/Quentin_PC/Google Drive/Web Projects/RMC_old/includes/work.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/views/includes/about.ejs",
+		"/C/Users/Quentin_PC/Google Drive/Web Projects/RMC_old/includes/about.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/views/includes/contact.ejs",
+		"/C/Users/Quentin_PC/Google Drive/Web Projects/RMC_old/index.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/views/navigation.ejs",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/views/includes/home.ejs",
+		"/C/Users/Quentin_PC/Google Drive/Web Projects/RMC_old/includes/home.html",
+		"/C/Users/Quentin_PC/Google Drive/Web Projects/RMC_old/includes/navigation.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app.js",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/views/index.html",
+		"/C/Users/Quentin_PC/Google Drive/Web Projects/RMC/test.php",
+		"/C/Users/Quentin_PC/Google Drive/Web Projects/RMC/includes/contact.html",
+		"/C/Users/Quentin_PC/Google Drive/Web Projects/RMC/index.html",
+		"/C/Users/Quentin_PC/Google Drive/Web Projects/RMC/README.md",
+		"/C/Users/Quentin_PC/Google Drive/Web Projects/RMC/includes/work.html",
+		"/C/Users/Quentin_PC/Google Drive/Web Projects/RMC/includes/about.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/includes/about.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/includes/home.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/includes/contact.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/includes/work.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/includes/test.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/includes/navigation.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/navigation.htm",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/myFile.htm",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/js/angular.js",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/navigation.html",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/js/jquery-2.2.1.min.js",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/sandbox/Forms/app/views/form.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/js/jquery-2.2.0.min.js",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/sandbox/Forms/app/views/hello.php",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/mongoose_tut/index.htrml",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/mongoose_tut/node_modules/mongodb/README.md",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/mongoose_tut/node_modules/mongo/node_modules/mongodb/README.md",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/mongoose_tut/package.json",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/sandbox/Forms/vendor/symfony/dom-crawler/Symfony/Component/DomCrawler/Form.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/sandbox/Forms/vendor/patchwork/utf8/src/Patchwork/PHP/Shim/charset/from.cp875.ser",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/sandbox/Forms/vendor/laravel/framework/src/Illuminate/Support/Facades/Form.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/sandbox/Forms/composer.json",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/sandbox/Forms/app/config/app.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/sandbox/Forms/resources/views/welcome.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/sandbox/Forms/config/app.php",
+		"/C/Users/Quentin_PC/Desktop/Laravel/Laravel 5/authapp/resources/views/welcome.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Laravel/Laravel 5/authapp/resources/views/thanks.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Laravel/Laravel 5/authapp/resources/views/spotlight.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/public/js/bootstrap.min.js",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/public/css/bootstrap.css",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/public/js/offcanvas.js",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/public/js/jquery-2.0.0.js",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/public/css/jasney-bootstrap.css",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/.gitattributes",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/.gitignore",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/defualt.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/child2.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/layouts/master.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/layouts/footer.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/testLar5/app/Http/routes.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/testLar5/resources/views/child.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/testLar5/resources/views/layouts/master.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/child.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/routes.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/layout/main.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/index.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/controllers/BaseController.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/home.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/node/express-generator/rouxmeet/views/index.ejs",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/node/express-generator/rouxmeet/views/partials/template/header.ejs",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/node/express-generator/rouxmeet/routes/index.js",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/node/express-generator/rouxmeet/app.js",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/node/express-generator/rouxmeet/views/partials/template/head.ejs",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/node/express-generator/rouxmeet/views/partials/content/socialmedia.ejs",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/node/node_express/views/partials/page/head.ejs",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/node/node_express/views/partials/page/footer.ejs",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/layout/header.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/node/node_express/views/partials/page/header.ejs",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/node/node_express/views/partials/page/jsdefaults.ejs",
+		"/C/Users/Quentin_PC/Desktop/Node Projects/node/node_express/routes/index.js",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/layout/navigation.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/content2.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/content.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/layout/footer.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/layouts/content.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/layouts/home.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/controllers/HomeController.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/controllers/UserController.php",
+		"/C/Users/Quentin_PC/Desktop/Web Design Work/RMC/app/views/templates/header.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Laravel/Laravel 4/authapp/app/views/spotlight.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Laravel/Laravel 4/authapp/app/views/logout.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Laravel/Laravel 4/authapp/app/views/thanks.blade.php",
+		"/C/Users/Quentin_PC/Desktop/Laravel/Laravel 4/authapp/app/database/migrations/2016_01_05_130800_create_users.php",
+		"/C/Users/Quentin_PC/Desktop/Laravel/Laravel 4/authapp/app/config/database.php",
+		"/C/Users/Quentin_PC/Desktop/lar4Test/app/views/signup.blade.php",
+		"/C/Users/Quentin_PC/Desktop/lar4Test/app/routes.php",
+		"/C/Users/Quentin_PC/Desktop/lar4Test/app/views/hello.blade.php",
+		"/C/Users/Quentin_PC/Desktop/lar4Test/app/models/painting.php",
+		"/C/Users/Quentin_PC/Desktop/lar4Test/app/database/migrations/2016_01_05_104043_create_paintings.php",
+		"/C/Users/Quentin_PC/Desktop/lar4Test/app/database/migrations/2016_01_05_102952_create_art.php",
+		"/C/Users/Quentin_PC/Desktop/lar4Test/app/views/about.php",
+		"/C/Users/Quentin_PC/Desktop/lar4Test/app/config/database.php",
+		"/C/Users/Quentin_PC/Desktop/lar4Test/app/views/hello.php",
+		"/C/Users/Quentin_PC/Desktop/lar4Test/public/css/main.css",
+		"/C/Users/Quentin_PC/Desktop/lar4Test/app/config/app.php",
+		"/C/Users/Quentin_PC/Desktop/authapp/vendor/bin/phpunit",
+		"/C/Users/Quentin_PC/Desktop/authapp/resources/views/spotlight.blade.php",
+		"/C/Users/Quentin_PC/Desktop/authapp/app/Http/Controllers/Auth/AuthController.php",
+		"/C/Users/Quentin_PC/Desktop/authapp/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/C/Users/Quentin_PC/Desktop/authapp/vendor/symfony/routing/Route.php",
+		"/C/Users/Quentin_PC/Desktop/authapp/app/Http/Controllers/Controller.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"id",
+			"20deg",
+			" table-hover",
+			"		<tr>\n			<td>Ladies Cuts</td>\n		</tr>",
+			"        app.controller('homeCtrl', function($scope){\n          $scope.page = \"Home\" ;          \n        })",
+			"Home",
+			"/",
+			"('/');",
+			"2",
+			"filename",
+			"[",
+			"Name",
+			"name",
+			"Name",
+			"name",
+			"Name",
+			"name",
+			"Name",
+			"name",
+			"article",
+			"/",
+			"layouts",
+			"content",
+			"login",
+			"Email",
+			"email",
+			"Email",
+			"email",
+			"Email",
+			"email",
+			"!!}",
+			"{!!",
+			"}}",
+			"{{",
+			"homestead",
+			"aside",
+			"name",
+			"var",
+			"find_subject_by_id",
+			"subject",
+			"current_subject",
+			"manage_content",
+			"Subject",
+			"subject_set",
+			"Position",
+			"message",
+			"echo",
+			"result",
+			"	$",
+			"row",
+			"echo",
+			"equal",
+			"username",
+			"id",
+			"evenCount"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"}}",
+			"{{",
+			"!!}",
+			"{!!"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								749,
+								749
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 950.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/services.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/home.htm",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 33,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1151,
+								1151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Hair_Stylist.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"styl",
+				"css\\style.css"
+			],
+			[
+				"form",
+				"Forms\\app\\views\\form.blade.php"
+			],
+			[
+				"form.php",
+				"Forms\\vendor\\symfony\\dom-crawler\\Symfony\\Component\\DomCrawler\\Form.php"
+			],
+			[
+				"phpu",
+				"authapp\\vendor\\bin\\phpunit"
+			],
+			[
+				"route",
+				"authapp\\vendor\\symfony\\routing\\Route.php"
+			],
+			[
+				"than",
+				"authapp\\resources\\views\\thanks.blade.php"
+			],
+			[
+				"app",
+				"authapp\\config\\app.php"
+			],
+			[
+				"data",
+				"config\\database.php"
+			],
+			[
+				"c8",
+				"storage\\framework\\views\\c864fb8c2f3997cc7790a7b8b34e3a70e9f51f6f.php"
+			],
+			[
+				"conta",
+				"learning_lar\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php"
+			],
+			[
+				"contain",
+				"learning_lar\\vendor\\mockery\\mockery\\library\\Mockery\\Container.php"
+			],
+			[
+				"container",
+				"learning_lar\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php"
+			],
+			[
+				"container.php",
+				"learning_lar\\vendor\\mockery\\mockery\\library\\Mockery\\Container.php"
+			],
+			[
+				"conf",
+				"learning_lar\\vendor\\classpreloader\\classpreloader\\src\\Config.php"
+			],
+			[
+				"contai",
+				"learning_lar\\vendor\\mockery\\mockery\\library\\Mockery\\Container.php"
+			],
+			[
+				"about",
+				"learning_lar\\app\\Http\\Controllers\\AboutController.php"
+			],
+			[
+				"confi",
+				"learning_lar\\vendor\\classpreloader\\classpreloader\\src\\Config.php"
+			],
+			[
+				"provi",
+				"learning_lar\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php"
+			],
+			[
+				"routes",
+				"learning_lar\\app\\Http\\routes.php"
+			],
+			[
+				"mysql",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\MySqlConnector.php"
+			],
+			[
+				"connectro",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connectors\\Connector.php"
+			],
+			[
+				"welc",
+				"resources\\views\\welcome.blade.php"
+			],
+			[
+				"",
+				"app\\Http\\routes.php"
+			],
+			[
+				"ind",
+				"node_express\\routes\\index.js"
+			],
+			[
+				"new",
+				"public\\new_page.php"
+			],
+			[
+				"func",
+				"includes\\functions.php"
+			],
+			[
+				"del",
+				"public\\delete_subject.php"
+			],
+			[
+				"pa",
+				"public\\edit_page.php"
+			],
+			[
+				"delete",
+				"public\\delete_page.php"
+			],
+			[
+				"edi",
+				"public\\edit_subject.php"
+			],
+			[
+				"edit",
+				"public\\edit_page.php"
+			],
+			[
+				"man",
+				"public\\manage_content.php"
+			],
+			[
+				"fun",
+				"includes\\functions.php"
+			],
+			[
+				"ed",
+				"public\\edit_subject.php"
+			],
+			[
+				"admi",
+				"public\\admin.php"
+			],
+			[
+				"head",
+				"includes\\layouts\\header.php"
+			],
+			[
+				"mana",
+				"public\\manage_content.php"
+			],
+			[
+				"inde",
+				"public\\index.php"
+			],
+			[
+				"header",
+				"includes\\layouts\\header.php"
+			],
+			[
+				"vali",
+				"includes\\validation_functions.php"
+			],
+			[
+				"foo",
+				"includes\\layouts\\footer.php"
+			],
+			[
+				"val",
+				"includes\\validation_functions.php"
+			],
+			[
+				"s",
+				"includes\\session.php"
+			],
+			[
+				"create",
+				"public\\create_subject.php"
+			],
+			[
+				"ses",
+				"includes\\session.php"
+			],
+			[
+				"crea",
+				"public\\create_subject.php"
+			],
+			[
+				"sail",
+				"sails-new\\node_modules\\sails\\bin\\sails.js"
+			],
+			[
+				"admin",
+				"widget_corp\\public\\admin.php"
+			],
+			[
+				"d",
+				"widget_corp\\includes\\db_connection.php"
+			],
+			[
+				"fu",
+				"widget_corp\\includes\\functions.php"
+			],
+			[
+				"foot",
+				"widget_corp\\includes\\layouts\\footer.php"
+			],
+			[
+				"hea",
+				"widget_corp\\includes\\layouts\\header.php"
+			],
+			[
+				"ma",
+				"widget_corp\\public\\manage_content.php"
+			],
+			[
+				"ad",
+				"widget_corp\\public\\admin.php"
+			],
+			[
+				"bas",
+				"basic.html"
+			],
+			[
+				"da",
+				"databases.php"
+			],
+			[
+				"basi",
+				"basic.html"
+			],
+			[
+				"va",
+				"validation_errors.php"
+			],
+			[
+				"fal",
+				"false_positives.php"
+			],
+			[
+				"ba",
+				"basic.html"
+			],
+			[
+				"fomr",
+				"form_single.php"
+			],
+			[
+				"in",
+				"included_functions.php"
+			],
+			[
+				"b",
+				"basic.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
