@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-  <html ng-app="myApp">
+  <html>
     <head>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -10,30 +10,115 @@
       <!-- Angular -->
       <link rel="stylesheet" href="css/angular.css">
       <!-- Custom -->
-      <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <title></title>
     </head>
 
-    <body>
+    <body ng-app="myApp">
 
-      <div class="container"> 
+      <div class="container-fluid"> 
         
-        <nav>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact Us</a>
-        </nav>  
-
-        <h1>Hair Stylist's</h1>
-        <h2>Unisex Salon</h2>
-    
-        <div ng-view></div>
-
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <img src="img/Hair_Stylist.png" alt="">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+<!--              <a class="navbar-brand" href="#">Title</a>-->
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+        
+        <div class="row">
+          
+          <table class="table table-condensed col-md-6">
+            <thead>
+              <tr>
+                <th><u>Opening Hours</u></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>CLOSED</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Tuesday</td>
+                <td>07:30 - 16:30</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Wednesday</td>
+                <td>07:30 - 16:30</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Thursday</td>
+                <td>07:30 - 16:30</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Friday</td>
+                <td>07:30 - 16:30</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Saturday</td>
+                <td>07:30 - 16:30</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td>Sunday</td>
+                <td>CLOSED</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Tel: 031 702 6937</p>  
+          <!-- <div class="col-md-12" ng-view></div> -->
+        </div> <!-- row -->
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/Landing.jpg" style="height:100px">
+          </div>
+          <div class="col-md-6">
+            <h3>Welcome</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div> <!-- row -->
       </div> <!-- container -->  
+      <footer>
+        Copyright &amp; Hair Stylist's, 2016
+      </footer>
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
@@ -65,8 +150,7 @@
             templateUrl : "routes/contact.htm",
             controller : "contactCtrl"
           });
-        });
-        
+        });  
       </script>
     </body>
   </html>
