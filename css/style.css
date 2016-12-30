@@ -41,6 +41,56 @@ body {
     background: purple;
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+/*    width: 280px;*/
+/*    margin-left: 60%;*/
+/*    height: 400px;*/
+}
+
+.flex-container > p {
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.flex-heading {
+    width: 200px;
+    text-decoration: underline;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+.flex-item {
+    width: 90px;
+    margin-right: 40px;
+    
+}
+
+.time {
+    width: 90px;
+    margin-left: -15px;
+    text-align: center;
+}
+
+.flex-close {
+    width: 90px;
+    margin-right: 50px; 
+/*    text-align: center;*/
+}
+
+/*
+.closed-space {
+    margin-left: 80px;
+}
+
+.open-space {
+    margin-left: 65px;
+}
+*/
+
+/*
 .table>thead>tr>th {
     border-bottom: none;
 }
@@ -48,3 +98,4 @@ body {
 .table>tbody>tr>td {
     border-top: none;
 }
+*/
