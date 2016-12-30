@@ -22,7 +22,7 @@
       <div class="container-fluid"> 
         
         <nav class="navbar navbar-default" role="navigation">
-          <div class="container">
+<!--          <div class="container">-->
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <img src="img/Hair_Stylist.png" alt="">
@@ -44,7 +44,7 @@
                 <li><a href="#">Contact</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
-          </div>
+<!--          </div>-->
         </nav>
         
         <div class="row">
@@ -115,10 +115,10 @@
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div> <!-- row -->
-      </div> <!-- container -->  
       <footer>
         Copyright &amp; Hair Stylist's, 2016
       </footer>
+      </div> <!-- container -->  
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
@@ -130,27 +130,6 @@
 <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
 
       <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
-      <script>
-        var app = angular.module("myApp", ["ngRoute"]);
-        app.config(function($routeProvider){
-          $routeProvider
-          .when("/home", {
-            templateUrl : "routes/home.htm",
-            controller : "homeCtrl"
-          })
-          .when("/about", {
-            templateUrl : "routes/about.htm",
-            controller : "abouttrl"
-          })
-          .when("/services", {
-            templateUrl : "routes/services.htm",
-            controller : "servicesCtrl"
-          })
-          .when("/contact", {
-            templateUrl : "routes/contact.htm",
-            controller : "contactCtrl"
-          });
-        });  
-      </script>
+      
     </body>
   </html>
