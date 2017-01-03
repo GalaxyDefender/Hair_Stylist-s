@@ -1,0 +1,35 @@
+
+.navbar-header > img {
+    height: 100px;
+    margin-left: 20px;
+}
+
+.navbar {
+    background-color: black;
+    border-color: black;
+}
+
+.navbar-default .navbar-nav {
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:visited {
+    color: white;
+    border-bottom: solid;
+    
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    border-bottom: solid;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+    background: purple;
+}
