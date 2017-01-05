@@ -1,6 +1,7 @@
 
 .navbar-header > img {
-    height: 100px;
+    height: 100%;
+    width: 50%;
     margin-left: 20px;
 }
 
