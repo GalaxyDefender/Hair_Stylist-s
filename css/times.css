@@ -4,23 +4,28 @@
     margin-right: 50px;
 }
 
-.heading {
+.heading h4{
+    font-family: "Hobo Std";
+    text-transform: uppercase;
+    text-decoration: underline;
     text-align: center;
 }
 
 .week {
     float: left;
     clear: left;
-    list-style: none;
     margin-right: 30px
 }
 
 .times {
     clear: right;
-/*    float: right;*/
-    list-style: none;
     text-align: center;
     margin-left: 110px;  
+}
+
+.week, 
+.times {
+    list-style: none;
 }
 
 .phone {
