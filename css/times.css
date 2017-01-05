@@ -4,6 +4,10 @@
     margin-right: 50px;
 }
 
+.heading {
+    text-align: center;
+}
+
 .week {
     float: left;
     clear: left;
