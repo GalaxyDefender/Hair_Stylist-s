@@ -1,27 +1,29 @@
 body {
+    
 	color: white;
+    height: 100vh;
 	background: linear-gradient(black 20%, #331137);
-    background-repeat: no-repeat;
+/*    background-repeat: no-repeat;*/
 }
 
 .model {
     margin-left: 35px;
-    margin-top: -116px;
+/*    margin-top: -116px;*/
+/*    margin-top: -26%;*/
 /*    margin-top: -25%;*/
     position: absolute;
 /*    height: 71vh;*/
-    height: 740px;
+/*    height: 740px;*/
     z-index: 20;
-    float: left;
+/*    float: left;*/
 }
 
 .content {
 /*    height: 544px;*/
-    height: 52vh;
+/*    height: 50vh;*/
+    
     margin: 70px 0px 0px 50px;
-    clear: content;
-    
-    
+    clear: content;    
 }
 
 .content h1 {
@@ -34,7 +36,27 @@ body {
     padding-bottom: 15px;    
 }
 
-footer {
+.content-flex {
+    display: flex;
+    height: 100%;
+}
+
+#flex-footer {
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex {
+/*    display: flex;*/
+/*    align-items: stretch;*/
+    
+    width: 100vw;
+}
+
+footer {  
+/*    display: flex;*/
+/*    align-content: flex-end;*/
     height: 50px;
     background: rgba(0, 0, 0, 0.75);
     text-align: center;
