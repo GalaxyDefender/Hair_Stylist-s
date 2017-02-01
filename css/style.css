@@ -8,6 +8,10 @@ body {
 	background: linear-gradient(black 20%, #331137);
 }
 
+.nested-row {
+    width: 100%;
+}
+
 .model {
     margin-left: 20px;
     position: absolute;
