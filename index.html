@@ -19,58 +19,16 @@
       <title></title>
     </head>
 
-    <body>   
+    <body ng-app="">   
       <div class="container-fluid"> 
         <div class="row">
-        <nav class="navbar navbar-default" role="navigation">
-<!--          <div class="container">-->
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <img src="img/Hair_Stylist.png" alt="">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-<!--              <a class="navbar-brand" href="#">Title</a>-->
-            </div>
-        
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-        </nav>
+            <div ng-include="'routes/includes/nav.html'"></div>
+            
         </div>
           <div class="row">
-            <div class="col-md-offset-10 opening-hours"> 
-                <div class="heading"><h4>Opening hours</h4></div>
-                  <ul>
-                    <li class="week">Monday</li>
-                    <li class="week">Tuesday</li>
-                    <li class="week">Wednesday</li>
-                    <li class="week">Thursday</li>
-                    <li class="week">Friday</li>
-                    <li class="week">Saturday</li>
-                    <li class="week">Sunday</li>
-                </ul>
-                <ul>
-                    <li class="times">CLOSED</li>
-                    <li class="times">07:30 - 16:30</li>
-                    <li class="times">07:30 - 16:30</li>
-                    <li class="times">07:30 - 16:30</li>
-                    <li class="times">07:30 - 16:30</li>
-                    <li class="times">07:30 - 16:30</li>
-                    <li class="times">CLOSED</li>
-                </ul>
-                <p class="phone">Tel: 031 702 6937</p> 
-            </div>
-            <div class="row">
+            <div ng-include="'routes/includes/opening-hours.html'"></div>
+<!--              <div class="ng-view"></div>-->
+            <div class="row nested-row">
               <aside class="col-md-3 model">
                 <img src="img/Landing.gif" class="img-responsive">
               </aside>
@@ -90,23 +48,18 @@
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
-            </div> <!-- row -->
+            </div>
           </div>
       </div> <!-- container --> 
-        <footer>
-            Copyright &amp; Hair Stylist's, 2016
-        </footer>  
+        <div ng-include="'routes/includes/footer.html'"></div>
 
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
-      <!-- Bootstrap -->
-      <script type="text/javascript" src="js/bootstrap.min.js"></script>
-      <!-- Angular -->
-       <script type="text/javascript" src="js/angular.js"></script>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- Angular -->
+        <script type="text/javascript" src="js/angular.js"></script>
 
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
-
-      <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
-      
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
     </body>
   </html>
