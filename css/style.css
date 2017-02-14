@@ -29,6 +29,22 @@ body {
     padding-bottom: 15px;    
 }
 
+address>h3 {
+    text-decoration: underline;
+}
+
+address ul {
+    padding: 0;
+}
+
+address ul li {
+    font-size: 18px;
+    list-style: none;
+/*    position: relative;*/
+/*    text-align: left;*/
+/*    padding: 0;*/
+}
+
 footer {  
 /*    height: 50px;*/
     position: absolute;

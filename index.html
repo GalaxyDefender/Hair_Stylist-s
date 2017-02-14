@@ -22,8 +22,7 @@
     <body ng-app="myApp">   
       <div class="container-fluid"> 
         <div class="row">
-            <div ng-include="'routes/includes/nav.html'"></div>
-            
+            <div ng-include="'routes/includes/nav.html'"></div>        
         </div>
           <div class="row">
             <div ng-include="'routes/includes/opening-hours.html'"></div>
@@ -33,7 +32,7 @@
                 <img src="img/Landing.gif" class="img-responsive">
               </aside>
               <div ng-view class="col-md-offset-3 col-md-6 content">
-                
+                <!-- Content goes here -->
               </div>
             </div>
           </div>
@@ -61,6 +60,9 @@
                 })
                 .when("/services", {
                     templateUrl : "routes/services.html"
+                })
+                .when("/contact", {
+                    templateUrl : "routes/contact.html"
                 });
             });
         </script>
