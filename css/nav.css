@@ -7,6 +7,7 @@
 .navbar {
     background-color: black;
     border-color: black;
+    margin-bottom: -77px;
 }
 
 .navbar-default .navbar-nav {

@@ -1,0 +1,15 @@
+table {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
+    font-size: 16px;
+}
+
+#exception {
+  margin-left: 25%; 
+  font-size: 16px;
+}
+
+.th-space {
+    padding-top: 15px;
+}

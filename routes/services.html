@@ -4,18 +4,20 @@
 
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a data-target="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-    <li role="presentation"><a data-target="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-    <li role="presentation"><a data-target="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-    <li role="presentation"><a data-target="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+    <li role="presentation" class="active"><a data-target="#ladies" aria-controls="ladies" role="tab" data-toggle="tab">Ladies</a></li>
+    <li role="presentation"><a data-target="#gents" aria-controls="gents" role="tab" data-toggle="tab">Gents</a></li>
+    <li role="presentation"><a data-target="#pensioners" aria-controls="pensioners" role="tab" data-toggle="tab">Pensioners</a></li>
+    <li role="presentation"><a data-target="#colours" aria-controls="colours" role="tab" data-toggle="tab">Colours with cut and blow wave</a></li>
+    <li role="presentation"><a data-target="#specials" aria-controls="specials" role="tab" data-toggle="tab">Combined colour specials</a></li>
   </ul>
 
   <!-- Tab panes -->
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home">hdgdfg</div>
-    <div role="tabpanel" class="tab-pane" id="profile">sfgsfdgdf</div>
-    <div role="tabpanel" class="tab-pane" id="messages">.gfgdf</div>
-    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+    <div role="tabpanel" class="tab-pane active" id="ladies"><div ng-include="'routes/includes/ladies.html'"></div></div>
+    <div role="tabpanel" class="tab-pane" id="gents"><div ng-include="'routes/includes/gents.html'"></div></div>
+    <div role="tabpanel" class="tab-pane" id="pensioners"><div ng-include="'routes/includes/pensioners.html'"></div></div>
+    <div role="tabpanel" class="tab-pane" id="colours"><div ng-include="'routes/includes/colour.html'"></div></div> 
+    <div role="tabpanel" class="tab-pane" id="specials"><div ng-include="'routes/includes/colour_specials.html'"></div></div>
   </div>
 
 </div>
