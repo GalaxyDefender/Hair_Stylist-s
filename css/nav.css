@@ -24,11 +24,21 @@
 
 .navbar-default .navbar-nav>li>a:visited {
     color: white;
-    border-bottom: solid;
-    
+    border-bottom: solid;  
 }
 
 .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    border-bottom: solid;
+}
+
+.navbar .navbar-nav>li.active>a{
+    color: white;
+    background: purple;
+}
+
+.navbar .navbar-nav>li.active>a:hover{
+    background: purple;
     color: white;
     border-bottom: solid;
 }
