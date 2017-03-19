@@ -41,13 +41,15 @@
         <div ng-include="'routes/includes/footer.html'"></div>
 
         <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+        <script src="js/jquery-2.2.1.min.js"></script>
         <!-- Bootstrap -->
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <!-- Angular -->
-        <script type="text/javascript" src="js/angular.js"></script>
+        <script src="js/angular.js"></script>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<!--        <script type="text/javascript" src="js/main.js"></script>-->
+        <script src="js/angular-route.js"></script>
+
         
         <script>
             var app = angular.module("myApp", ["ngRoute"]);
@@ -66,8 +68,19 @@
                     templateUrl : "routes/contact.html"
                 });
             });
+            
+            $(document).ready(function(){
+               $(".navbar-nav li").click(function(e){
+                   e.preventDefault();
+                   $(".navbar-nav li.active").removeClass("active");
+                   $(this).addClass("active");
+               });
+                
+                $("p").click(function(){
+                   $(this).hide(); 
+                });
+            });
         </script>
         
-        <script type="text/javascript" src="js/custom.js"></script>
     </body>
   </html>
