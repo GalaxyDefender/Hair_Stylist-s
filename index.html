@@ -7,8 +7,6 @@
       <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
       <!-- Bootstrap -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- Angular -->
-      <link rel="stylesheet" href="css/angular.css">
       <!-- Custom -->
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="stylesheet" type="text/css" href="css/nav.css">
@@ -23,7 +21,7 @@
     <body ng-app="myApp">   
       <div class="container-fluid"> 
         <div class="row">
-            <div ng-include="'routes/includes/nav.html'"></div>        
+            <div ng-include="'routes/includes/nav.html'"></div>  
         </div>
           <div class="row">
             <div ng-include="'routes/includes/opening-hours.html'"></div>
@@ -50,6 +48,15 @@
         <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
         
         <script>
+//            var j = jQuery.noConflict();
+//            angular.element(document).ready(function(){
+//             angular.element('.navbar-nav li').click(function(e){
+//               angular.element('.navbar-nav li.active').removeClass('active');
+//                angular.element(this).addClass('active');
+//                e.preventDefault();
+//                });               
+//            });
+            
             var app = angular.module("myApp", ["ngRoute"]);
             app.config(function($routeProvider){
                 $routeProvider
@@ -66,8 +73,9 @@
                     templateUrl : "routes/contact.html"
                 });
             });
+
         </script>
         
-        <script type="text/javascript" src="js/custom.js"></script>
+<!--        <script type="text/javascript" src="js/custom.js"></script>-->
     </body>
   </html>

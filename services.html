@@ -1,0 +1,104 @@
+<h1>Price list</h1>
+
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a data-target="#ladies" aria-controls="ladies" role="tab" data-toggle="tab">Ladies</a></li>
+    <li role="presentation"><a data-target="#gents" aria-controls="gents" role="tab" data-toggle="tab">Gents</a></li>
+    <li role="presentation"><a data-target="#pensioners" aria-controls="pensioners" role="tab" data-toggle="tab">Pensioners</a></li>
+    <li role="presentation"><a data-target="#colours" aria-controls="colours" role="tab" data-toggle="tab">Colours with cut and blow wave</a></li>
+    <li role="presentation"><a data-target="#specials" aria-controls="specials" role="tab" data-toggle="tab">Combined colour specials</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="ladies"><div ng-include="'routes/includes/ladies.html'"></div></div>
+    <div role="tabpanel" class="tab-pane" id="gents"><div ng-include="'routes/includes/gents.html'"></div></div>
+    <div role="tabpanel" class="tab-pane" id="pensioners"><div ng-include="'routes/includes/pensioners.html'"></div></div>
+    <div role="tabpanel" class="tab-pane" id="colours"><div ng-include="'routes/includes/colour.html'"></div></div> 
+    <div role="tabpanel" class="tab-pane" id="specials"><div ng-include="'routes/includes/colour_specials.html'"></div></div>
+  </div>
+
+</div>
+
+<!--
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#ladies" aria-expanded="false" aria-controls="ladies">
+  Ladies
+</button>
+<div class="collapse" id="ladies">
+  <div class="well">
+    This is the ladies section
+  </div>
+</div>
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#gents" aria-expanded="false" aria-controls="gents">
+  Gents
+</button>
+<div class="collapse" id="gents">
+  <div class="well">
+    This is the genbts section
+  </div>
+</div>
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pensioners" aria-expanded="false" aria-controls="pensioners">
+  Pensioners
+</button>
+<div class="collapse" id="pensioners">
+  <div class="well">
+    This is the pensioners section
+  </div>
+</div>
+<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#specials" aria-expanded="false" aria-controls="specials">
+  Combined Colour Specials
+</button>
+<div class="collapse" id="specials">
+  <div class="well">
+    This is the specials section
+  </div>
+</div>
+-->
+
+<!--
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" data-target="#Ladies" aria-expanded="true" aria-controls="Ladies">
+          Ladies
+        </a>
+      </h4>
+    </div>
+    <div id="Ladies" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        This is the ladies section
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#Gents" aria-expanded="false" aria-controls="Gents">
+          Gents
+        </a>
+      </h4>
+    </div>
+    <div id="Gents" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        This is the gents section
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" data-target="#pensioners" aria-expanded="false" aria-controls="pensioners">
+          Pensioners
+        </a>
+      </h4>
+    </div>
+    <div id="pensioners" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+       This is the pensioners section
+      </div>
+    </div>
+  </div>
+</div>-->
