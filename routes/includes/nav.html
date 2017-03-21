@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default {{active}} " role="navigation">
 <!-- <div class="container"> -->
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -15,10 +15,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li class="home"><a href="#/">Home</a></li>
-        <li class="about"><a href="#about">About</a></li>
-        <li class="services"><a href="#services">Services</a></li>
-        <li class="contact"><a href="#contact">Contact</a></li>
+        <li><a href="#/" class="home" ng-click="active='home'">Home</a></li>
+        <li><a href="#about" class="about" ng-click="active='about'">About</a></li>
+        <li><a href="#services" class="services" ng-click="active='services'">Services</a></li>
+        <li><a href="#contact" class="contact" ng-click="active='contact'">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
 </nav>

@@ -22,19 +22,31 @@
 /*    padding-bottom: 15px;*/
 }
 
+/*
 .navbar-default .navbar-nav>li>a:visited {
     color: white;
     border-bottom: solid;  
 }
+*/
 
 .navbar-default .navbar-nav>li>a:hover {
     color: white;
     border-bottom: solid;
 }
 
+/*
 .navbar .navbar-nav>li.active>a{
     color: white;
     background: purple;
+}
+*/
+
+nav.home .home,
+nav.about .about,
+nav.services .services,
+nav.contact .contact {
+    color: white;
+    background: purple;    
 }
 
 .navbar .navbar-nav>li.active>a:hover{
@@ -43,6 +55,8 @@
     border-bottom: solid;
 }
 
-.navbar-default .navbar-nav>li>a:active {
+
+.navbar-default .navbar-nav>li>a:focus {
+    color: white;
     background: purple;
 }
