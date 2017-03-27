@@ -12,39 +12,26 @@
 
 .navbar-default .navbar-nav {
     margin-top: 15px;
-/*    padding-bottom: 40px;*/
     margin-right: 50px; 
 }
 
 .navbar-default .navbar-nav>li>a {
     color: white;
     text-transform: uppercase;
-/*    padding-bottom: 15px;*/
 }
-
-/*
-.navbar-default .navbar-nav>li>a:visited {
-    color: white;
-    border-bottom: solid;  
-}
-*/
 
 .navbar-default .navbar-nav>li>a:hover {
     color: white;
     border-bottom: solid;
 }
 
-/*
-.navbar .navbar-nav>li.active>a{
-    color: white;
-    background: purple;
-}
-*/
-
 nav.home .home,
 nav.about .about,
 nav.services .services,
-nav.contact .contact {
+nav.contact .contact,
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover {
+    border: none;
     color: white;
     background: purple;    
 }

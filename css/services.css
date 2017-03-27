@@ -13,3 +13,14 @@ table {
 .th-space {
     padding-top: 15px;
 }
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs>li>a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+/*    color: white;*/
+}
