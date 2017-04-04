@@ -1,5 +1,5 @@
 html {
-/*    position: relative;*/
+    position: relative;
     min-height: 100%;
 }
 
@@ -54,4 +54,16 @@ footer {
     width: 100%;
     bottom: 0;
 /*    top:0;*/
+}
+
+@media only screen and (max-width: 992px) {
+    .row {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        margin-bottom: 60px;
+    }
 }

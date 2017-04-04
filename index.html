@@ -1,81 +1,85 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
-      <!-- Bootstrap -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- Custom -->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <link rel="stylesheet" type="text/css" href="css/nav.css">
-      <link rel="stylesheet" type="text/css" href="css/times.css">
-      <link rel="stylesheet" type="text/css" href="css/services.css">
+<html>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title></title>
-    </head>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/times.css">
+    <link rel="stylesheet" type="text/css" href="css/services.css">
 
-    <body ng-app="myApp">   
-      <div class="container-fluid"> 
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hair Stylist's</title>
+</head>
+
+<body ng-app="myApp">
+    <div class="container-fluid">
         <div class="row">
-            <div ng-include="'routes/includes/nav.html'"></div>  
+            <div ng-include="'routes/includes/nav.html'"></div>
         </div>
-          <div class="row">
+        <div class="row">
             <div ng-include="'routes/includes/opening-hours.html'"></div>
-<!--              <div class="ng-view"></div>-->
             <div class="row nested-row">
-              <aside class="col-md-3 model">
-                <img src="img/Landing.gif" class="img-responsive">
-              </aside>
-              <div ng-view class="col-md-offset-3 col-md-6 content">
-                <!-- Content goes here -->
-              </div>
+
+                <aside class="col-md-3 hidden-sm hidden-xs model">
+                    <img src="img/Landing.gif" class="img-responsive">
+                </aside>
+                <div ng-view class="col-md-offset-3 col-md-6 content">
+                    <!-- Content goes here -->
+                </div>
             </div>
-          </div>
-      </div> <!-- container --> 
-        <div ng-include="'routes/includes/footer.html'"></div>
+        </div>
+    </div>
 
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
-        <!-- Bootstrap -->
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <!-- Angular -->
-        <script type="text/javascript" src="js/angular.js"></script>
+    <!-- container -->
+    <div ng-include="'routes/includes/footer.html'"></div>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
-        
-        <script>
-//            var j = jQuery.noConflict();
-//            angular.element(document).ready(function(){
-//             angular.element('.navbar-nav li').click(function(e){
-//               angular.element('.navbar-nav li.active').removeClass('active');
-//                angular.element(this).addClass('active');
-//                e.preventDefault();
-//                });               
-//            });
-            
-            var app = angular.module("myApp", ["ngRoute"]);
-            app.config(function($routeProvider){
-                $routeProvider
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Angular -->
+    <script type="text/javascript" src="js/angular.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+
+    <script>
+        //            var j = jQuery.noConflict();
+        //            angular.element(document).ready(function(){
+        //             angular.element('.navbar-nav li').click(function(e){
+        //               angular.element('.navbar-nav li.active').removeClass('active');
+        //                angular.element(this).addClass('active');
+        //                e.preventDefault();
+        //                });
+        //            });
+
+        var app = angular.module("myApp", ["ngRoute"]);
+        app.config(function($routeProvider) {
+            $routeProvider
                 .when("/", {
-                    templateUrl : "routes/home.html"
+                    templateUrl: "routes/home.html"
                 })
                 .when("/about", {
-                    templateUrl : "routes/about.html"
+                    templateUrl: "routes/about.html"
                 })
                 .when("/services", {
-                    templateUrl : "routes/services.html"
+                    templateUrl: "routes/services.html"
                 })
                 .when("/contact", {
-                    templateUrl : "routes/contact.html"
+                    templateUrl: "routes/contact.html"
                 });
-            });
+        });
 
-        </script>
-        
-<!--        <script type="text/javascript" src="js/custom.js"></script>-->
-    </body>
-  </html>
+    </script>
+
+    <!--        <script type="text/javascript" src="js/custom.js"></script>-->
+</body>
+
+</html>

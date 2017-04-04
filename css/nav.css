@@ -47,3 +47,10 @@ nav.contact .contact,
     color: white;
     background: purple;
 }
+
+
+@media only screen and (max-width: 768px){
+    .navbar {
+        margin-bottom: 50px;
+    }
+}
