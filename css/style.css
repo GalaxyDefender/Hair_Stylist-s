@@ -19,6 +19,10 @@ body {
     bottom: 0;
 }
 
+.content {
+    margin-top: -60px
+}
+
 .content h1 {
     font-family: "Hobo Std";
     text-transform: uppercase;
